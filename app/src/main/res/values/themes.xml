@@ -11,4 +11,9 @@
 
     <style name="Theme.PPPBMyCourse" parent="Base.Theme.PPPBMyCourse" />
     <style name="Theme.PPPBMyCourse.WithActionBar" parent="Base.Theme.PPPBMyCourse.WithActionBar" />
+
+    <style name="CustomRoundedButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>
