@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         var binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        title = "Dashboard"
+        //supportActionBar?.hide()
 
         with(binding){
             viewPager.adapter = TabAdapter(this@MainActivity)
